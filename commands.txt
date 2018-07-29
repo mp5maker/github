@@ -31,6 +31,8 @@ git remote rm origin
 git remote add [shortname] [url]
 git fetch [remote-name]
 git push origin master
+git branch 
+git branch -d [branch-name]
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
