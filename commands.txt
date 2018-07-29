@@ -27,5 +27,12 @@ git commit --amend
 git checkout --filename
 git reset HEAD filename
 git remote -v
+git remote rm origin
 git remote add [shortname] [url]
 git fetch [remote-name]
+git push origin master
+
+ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
