@@ -33,6 +33,8 @@ git fetch [remote-name]
 git push origin master
 git branch 
 git branch -d [branch-name]
+git remote show [remote-name]
+git remote rename test photon
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
