@@ -1,0 +1,6 @@
+*.[ola]
+*~
+!lib.a
+/TODO
+build/
+doc/*.txt

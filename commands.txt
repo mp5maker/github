@@ -1,0 +1,12 @@
+Learning Basics of GitHub
+git config --global user.name 'Shabuktagin Photon Khan'
+git config --global user.email 'khan.photon@gmail.com'
+git config --global core.editor code --wait
+git config --list 
+git help
+git init
+git clone http://github.com/mp5maker/Note
+git status
+git add README
+git add commands.txt
+git diff
