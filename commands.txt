@@ -7,6 +7,25 @@ git help
 git init
 git clone http://github.com/mp5maker/Note
 git status
-git add README
+git add README 
 git add commands.txt
-git diff
+git diff --cached 
+git commit -m "First Commit"
+git commit -a -m "First Commit"
+git rm --cached extra.txt
+git add extra.txt
+git mv extra.txt rmextra.txt
+git log
+git log -p -2
+git log --stat
+git log --pretty=oneline
+git log --pretty=format:"%H %an %ar %s" 
+git log --prety=format:"%h %s" --graph
+git log --since=2.weeks
+gitk
+git commit --amend
+git checkout --filename
+git reset HEAD filename
+git remote -v
+git remote add [shortname] [url]
+git fetch [remote-name]
