@@ -35,6 +35,9 @@ git branch
 git branch -d [branch-name]
 git remote show [remote-name]
 git remote rename test photon
+git tag
+git tag -a v1.0 -m 'my version 1.0'
+git tag -s v1.5 -m 'my signed 1.5 version'
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
