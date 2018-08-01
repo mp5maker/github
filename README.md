@@ -16,7 +16,7 @@ You can also visit my
 If you are interested in my projects
 Project Name | Project Links
 ------------ | --------------
-Apartments   | http://sphotonkhan.com/estate
-Cafe         | http://sphotonkhan.com/cafe
-Tech         | http://sphotonkhan.com/tech
-Retailer     | http://sphotonkhan.com/E-Commerce2
+Apartments | http://sphotonkhan.com/estate
+Cafe | http://sphotonkhan.com/cafe
+Tech | http://sphotonkhan.com/tech
+Retailer | http://sphotonkhan.com/E-Commerce2
