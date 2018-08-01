@@ -14,8 +14,9 @@ You can also visit my
 [website](http://sphotonkhan.com)
 
 If you are interested in my projects
+
 Project Name | Project Links
------------- | --------------
+------------ | ------------------------------
 Apartments | http://sphotonkhan.com/estate
 Cafe | http://sphotonkhan.com/cafe
 Tech | http://sphotonkhan.com/tech
