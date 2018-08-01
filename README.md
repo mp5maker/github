@@ -8,7 +8,7 @@ You can go to my notes repository to get vague explanation
 
 
 If you have any concerns please connect with me through 
-my *khan.photon@gmail.com*
+*khan.photon@gmail.com*
 
 You can also visit my 
 [website](http://sphotonkhan.com)
