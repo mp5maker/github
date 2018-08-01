@@ -1,4 +1,4 @@
-####Git Basics
+##Git Basics
 
 This contains some of the terminology used in
 **Pro Git** by *Scott Chacon*
