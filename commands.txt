@@ -41,6 +41,9 @@ git tag -s v1.5 -m 'my signed 1.5 version'
 git tag v1.4-lw
 git push tag v1.0
 git config --global alias.co checkout
+git branch -v
+git branch --merged
+git branch --no-merged
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
