@@ -48,6 +48,7 @@ git fetch origin
 git branch -r
 git branch [remote-name] [branch-name]
 git push [remote-name] :[branch-name]
+git rebase master
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
