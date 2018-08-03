@@ -51,10 +51,18 @@ git push [remote-name] :[branch-name]
 git rebase master
 git rebase --onto master server client
 
+
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
+
+git clone /opt/git /project.git
+git clone file:///opt/git/project.git
+git remote add local_proj /opt/git/project.git
+git clone ssh://user@server.project.git
+git clone user@server.project.git
+Encrypted Protocol
 
 git checkout --track origin/serverfix
 git checkout -b sf origin/serverfix
