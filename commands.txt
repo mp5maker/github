@@ -47,8 +47,12 @@ git branch --no-merged
 git fetch origin
 git branch -r
 git branch [remote-name] [branch-name]
+git push [remote-name] :[branch-name]
 
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
+
+git checkout --track origin/serverfix
+git checkout -b sf origin/serverfix
