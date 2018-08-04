@@ -53,6 +53,10 @@ git rebase master
 git rebase --onto master server client
 git webui --port[port-number]
 
+Fork && Upstream
+::::::::::::::::
+git remote add upstream [original-content/original-work]
+
 Generating SSH Key
 ::::::::::::::::::
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
