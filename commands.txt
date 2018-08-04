@@ -83,3 +83,4 @@ git checkout -b sf origin/serverfix
 Installing
 :::::::::::::::::::::::::::::::::::: 
 WEBUI :: curl https://raw.githubusercontent.com/alberthier/git-webui/master/install/installer.sh | bash
+or use vscode plugin :: git history
