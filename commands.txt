@@ -1,4 +1,5 @@
 Learning Basics of GitHub
+:::::::::::::::::::::::::
 git config --global user.name 'Shabuktagin Photon Khan'
 git config --global user.email 'khan.photon@gmail.com'
 git config --global core.editor code --wait
@@ -52,16 +53,28 @@ git rebase master
 git rebase --onto master server client
 
 
+Generating SSH Key
+::::::::::::::::::
 ssh-keygen -t rsa -b 4096 -C "khan.photon@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
 
+
+Alternative Localhost/SSH Cloning
+:::::::::::::::::::::::::::::::::
 git clone /opt/git /project.git
 git clone file:///opt/git/project.git
 git remote add local_proj /opt/git/project.git
 git clone ssh://user@server.project.git
 git clone user@server.project.git
 
+
+Not Working
+::::::::::::::::::::::::::::::::::::
 git checkout --track origin/serverfix
 git checkout -b sf origin/serverfix
+
+Installing
+:::::::::::::::::::::::::::::::::::: 
+WEBUI :: curl https://raw.githubusercontent.com/alberthier/git-webui/master/install/installer.sh | bash
