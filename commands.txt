@@ -12,7 +12,7 @@ git add README
 git add commands.txt
 git diff --cached 
 git commit -m "First Commit"
-git commit -a -m "First Commit"
+git commit -am "First Commit"
 git rm --cached extra.txt
 git add extra.txt
 git mv extra.txt rmextra.txt
