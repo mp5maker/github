@@ -65,6 +65,10 @@ git stash apply
 git stash drop stash@{0}
 git stash pop
 git filter-branch --tree-filter 'rm -f [filename]' HEAD
+git submodule add [url]
+git submodule init
+git submodule update
+git merge origin/master
 
 
 Fork && Upstream
