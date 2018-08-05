@@ -58,6 +58,10 @@ git describe master
 git archive master --prefix='project/' | gzip > `git describe master`.zip
 git show [first-four-letters-sha1]
 git log --abbrev-commit --pretty=oneline
+git show [sha-1-four-letter]^
+git log master..[branch-name]
+git stash
+git stash apply
 
 Fork && Upstream
 ::::::::::::::::
