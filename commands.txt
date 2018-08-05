@@ -63,6 +63,8 @@ git log master..[branch-name]
 git stash
 git stash apply
 git stash drop stash@{0}
+git stash pop
+
 
 Fork && Upstream
 ::::::::::::::::
