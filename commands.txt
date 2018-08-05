@@ -56,6 +56,8 @@ git rebase --onto master server client
 git webui --port[port-number]
 git describe master
 git archive master --prefix='project/' | gzip > `git describe master`.zip
+git show [first-four-letters-sha1]
+git log --abbrev-commit --pretty=oneline
 
 Fork && Upstream
 ::::::::::::::::
