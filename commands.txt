@@ -55,6 +55,7 @@ git rebase master
 git rebase --onto master server client
 git webui --port[port-number]
 git describe master
+<<<<<<< HEAD
 git archive master --prefix='project/' | gzip > `git describe master`.zip
 git show [first-four-letters-sha1]
 git log --abbrev-commit --pretty=oneline
@@ -70,6 +71,9 @@ git submodule init
 git submodule update
 
 
+=======
+
+>>>>>>> 2083e334fdc0bf0cdcdd76d9b33822e485ec5120
 Fork && Upstream
 ::::::::::::::::
 git remote add upstream [original-content/original-work]
