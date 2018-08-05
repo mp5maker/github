@@ -68,7 +68,6 @@ git filter-branch --tree-filter 'rm -f [filename]' HEAD
 git submodule add [url]
 git submodule init
 git submodule update
-git merge origin/master
 
 
 Fork && Upstream
