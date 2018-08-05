@@ -64,6 +64,7 @@ git stash
 git stash apply
 git stash drop stash@{0}
 git stash pop
+git filter-branch --tree-filter 'rm -f [filename]' HEAD
 
 
 Fork && Upstream
