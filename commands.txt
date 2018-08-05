@@ -62,6 +62,7 @@ git show [sha-1-four-letter]^
 git log master..[branch-name]
 git stash
 git stash apply
+git stash drop stash@{0}
 
 Fork && Upstream
 ::::::::::::::::
